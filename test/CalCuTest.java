@@ -27,11 +27,11 @@ public class CalCuTest {
         return new Integer[][]{
             {1, 11},
             {2, 12},
-            {5, 16}
+            {5, 15}
         };
     }
     @Parameter(value = 0)
-    public int input;
+    public int input;   
     @Parameter(value = 1)
     public int expected;
     @Test
